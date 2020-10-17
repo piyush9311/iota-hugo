@@ -65,25 +65,26 @@ service:
   enable: true
   service_item:
     # service item loop
+    - title: "Events"
+      images:
+        - "images/pic-1.jpg"
+        - "images/pic-3.jpg"
+        - "images/pic-4.jpg"
+      content: "Events hosted till date and more to come."
+      button:
+        enable: true
+        label: "More about events!!"
+        link: "#"
+
+    # service item loop
     - title: "It is the most advanced digital marketing and it company."
       images:
         - "images/service-1.png"
-        - "images/service-2.png"
-        - "images/service-3.png"
+        - 
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
       button:
         enable: true
         label: "Check it out"
-        link: "#"
-
-    # service item loop
-    - title: "Events"
-      images:
-        - "images/service-1.png"
-      content: "About events. Upcoming Event"
-      button:
-        enable: true
-        label: "Hacktoberfest"
         link: "#"
 
     # service item loop
